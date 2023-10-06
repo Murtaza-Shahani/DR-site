@@ -1,0 +1,239 @@
+/* styles.css */
+
+/* Body styles for gradient background */
+body {
+    background-color: linear-gradient(to right, #6a11cb, #2575fc); /* Adjust colors as needed */
+}
+
+/* Custom styles for the logo */
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff; /* Adjust text color for visibility on the gradient */
+}
+
+/* Custom styles for navigation links */
+.navbar-nav .nav-link {
+    color: #fff; /* Adjust text color for visibility on the gradient */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa; /* Adjust hover text color for better visibility */
+}
+
+/* Custom styles for the welcome message */
+.welcome-message {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2rem;
+    color: #fff; /* Adjust text color for visibility on the gradient */
+}
+
+/* Custom styles for the right column image */
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+/* ... (Previous CSS code) ... */
+
+/* Custom styles for the section title */
+/* ... (Previous CSS code) ... */
+
+/* Custom styles for the section title */
+.section-title {
+    text-align: center;
+    color: #fff; /* Adjust text color for visibility on the gradient */
+    margin-bottom: 40px;
+}
+
+/* Custom styles for the health tip cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #007bff; /* Brand text color */
+}
+
+.card-text {
+    color: #555; /* Adjust text color for better visibility */
+}
+
+/* ... (Previous CSS code) ... */
+/* Form style */
+.appointment-form {
+    border-radius: 10px;
+    background: linear-gradient(to right, #007bff, #00b5ad);
+    padding: 20px;
+  }
+  
+  /* Input field style */
+  .appointment-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button style */
+  .appointment-form button {
+    border-radius: 5px;
+    background: #fff;
+    color: #007bff;
+    font-weight: bold;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label style */
+  .appointment-form .form-label {
+    color: #ccc;
+    font-weight: bold;
+  }
+
+  /* ... (Previous CSS code) ... */
+
+/* Custom styles for the article and event cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: #007bff; /* Brand text color */
+    font-size: 1.5rem;
+}
+
+.card-text {
+    color: #555; /* Adjust text color for better visibility */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Brand button color */
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* ... (Previous CSS code) ... */
+
+/* Custom styles for the feedback section */
+#feedbackSection {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background colors */
+    border-radius: 15px; /* Adjust border radius */
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Text color on gradient background */
+}
+
+.form-label {
+    font-size: 1.2rem;
+    color: #fff; /* Adjust label text color */
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Brand button color */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+/* ... (Previous CSS code) ... */
+/* ... (Previous CSS code) ... */
+
+/* Custom styles for the footer */
+.footer {
+    background-color: #1c1c1c; /* Footer background color */
+    color: #fff; /* Footer text color */
+    padding: 40px 0;
+}
+
+.footer-title {
+    font-size: 1.8rem;
+    color: #007bff; /* Brand text color */
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li,
+.social-links li {
+    margin-bottom: 15px;
+}
+
+.contact-info i,
+.social-links i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: #007bff; /* Icon color */
+}
+
+.info-text {
+    color: #ccc; /* Contact info text color */
+}
+
+.social-links a {
+    font-size: 2.5rem;
+    color: #fff; /* Social media icon color */
+}
+
+.social-links a:hover {
+    color: #007bff; /* Brand color on hover */
+}
+
+/* Custom styles for the feedback form */
+.footer-form {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background colors */
+    border-radius: 15px; /* Adjust border radius */
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.footer-form .form-control {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.footer-form button {
+    background-color: #007bff; /* Brand button color */
+    border: none;
+}
+
+.footer-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Custom styles for the bottom footer */
+.footer p {
+    margin: 0;
+    color: #ccc; /* Text color */
+    font-size: 1rem;
+}

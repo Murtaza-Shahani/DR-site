@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-raleway: Raleway;
+
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-25xl: 44px;
+  --font-size-2xs: 11px;
+  --font-size-17xl: 36px;
+  --font-size-3xs: 10px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-dimgray: #616161;
+  --color-black: #000;
+  --color-indianred: #ec5863;
+  --color-gray: #fafbfd;
+  --color-dodgerblue: #4285f4;
+
+  /* Paddings */
+  --padding-24xl: 43px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-11xl: 30px;
+  --br-8xs: 5px;
+}
